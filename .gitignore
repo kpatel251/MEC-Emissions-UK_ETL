@@ -1,0 +1,17 @@
+# Secrets
+.env
+
+# Claimant data (PII) - never commit
+*.csv
+*.xlsx
+*.xls
+*:Zone.Identifier
+
+# Python / build
+.venv/
+__pycache__/
+*.pyc
+build/
+
+# stray dirs from a bad mkdir brace expansion
+/{sql,src*
